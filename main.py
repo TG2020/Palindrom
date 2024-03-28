@@ -7,3 +7,5 @@ def palindrom(word):
         print(word==backword)
 
 palindrom("kukułka")
+
+#dokumentacja w pliku README
