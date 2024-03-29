@@ -6,6 +6,6 @@ def palindrom(word):
         print("Czy to słowo jest palindromem?")
         print(word==backword)
 
-palindrom("kukułka")
+palindrom("kajak")
 
 #dokumentacja w pliku README
