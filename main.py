@@ -1,11 +1,6 @@
-def palindrom(word):
-    word = word.lower()
-    backword="".join(reversed(word))
+word = input("Podaj słowo: ")
+def is_palindrome(value):
+    value = "".join([x for x in value.lower() if x.isalnum()])
+    return value == value[::-1]
 
-    if word.isalnum():
-        print("Czy to słowo jest palindromem?")
-        print(word==backword)
-
-palindrom("kajak")
-
-#dokumentacja w pliku README
+print("To jest palindrom." if is_palindrome(word) else "To nie jest palindrom.")
